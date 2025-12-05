@@ -151,9 +151,10 @@ function App() {
           <div className="about-text">
             <h3>Experience-Driven Educational Solutions</h3>
             <p>
-              With 28 years of teaching Physics and 19 years of school administration experience, 
-              AnytimeTeacher platform addresses real challenges faced by educators and students. 
-              Each tool is designed from ground-up understanding of classroom and administrative needs.
+              With 28 years experience of teaching Physics and 19 years of school administration 
+              and academic management, AnytimeTeacher platform addresses real challenges faced by 
+              educators and students. Each tool is designed from ground-up understanding of 
+              classroom and administrative needs.
             </p>
             <p>
               Combining decades of educational expertise with modern AI technology to create 
@@ -166,11 +167,11 @@ function App() {
               </div>
               <div className="highlight">
                 <span className="highlight-icon">📚</span>
-                <span>28 Years Teaching Physics</span>
+                <span>28 Years Experience of Teaching Physics</span>
               </div>
               <div className="highlight">
                 <span className="highlight-icon">🏫</span>
-                <span>19 Years Running Schools</span>
+                <span>19 Years of School Administration and Academic Management</span>
               </div>
               <div className="highlight">
                 <span className="highlight-icon">⭐</span>
@@ -183,9 +184,9 @@ function App() {
               <h4>Dr. Rajeev Tyagi</h4>
               <p>School Principal | IIT Alumnus</p>
               <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
-                28 years of Physics teaching | 19 years of school leadership | 
-                Military School Ajmer graduate | Building technology solutions 
-                that address real educational challenges.
+                28 years experience of teaching Physics | 19 years of school administration 
+                and academic management | Military School Ajmer passout | Building technology 
+                solutions that address real educational challenges.
               </p>
             </div>
           </div>
