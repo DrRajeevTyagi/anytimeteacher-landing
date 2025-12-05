@@ -174,7 +174,7 @@ function App() {
               </div>
               <div className="highlight">
                 <span className="highlight-icon">⭐</span>
-                <span>Military School Ajmer</span>
+<span>Military School Ajmer Passout</span>
               </div>
             </div>
           </div>
