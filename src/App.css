@@ -297,12 +297,21 @@ body {
   text-align: center;
   padding: 2rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
-  transition: transform 0.3s;
+  background: white;
+  border: 2px solid #667eea30;
+  transition: all 0.3s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .vision-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+  border-color: #667eea;
 }
 
 .vision-icon {
@@ -314,11 +323,13 @@ body {
   font-size: 1.3rem;
   color: #333;
   margin-bottom: 0.8rem;
+  font-weight: 600;
 }
 
 .vision-card p {
-  color: #666;
+  color: #555;
   line-height: 1.6;
+  font-size: 1rem;
 }
 
 /* Footer */
