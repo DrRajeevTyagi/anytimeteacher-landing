@@ -149,42 +149,43 @@ function App() {
         <h2 className="section-title">About AnytimeTeacher</h2>
         <div className="about-content">
           <div className="about-text">
-            <h3>Built by an Educator, for Education</h3>
+            <h3>Experience-Driven Educational Solutions</h3>
             <p>
-              As a Principal and Physics teacher with decades of experience, I understand 
-              the challenges schools face daily. AnytimeTeacher platform brings together 
-              AI-powered tools designed to solve real problems in education.
+              With 28 years of teaching Physics and 19 years of school administration experience, 
+              AnytimeTeacher platform addresses real challenges faced by educators and students. 
+              Each tool is designed from ground-up understanding of classroom and administrative needs.
             </p>
             <p>
-              Each app is crafted with deep understanding of educational needs, combining 
-              modern technology with pedagogical expertise.
+              Combining decades of educational expertise with modern AI technology to create 
+              practical, effective solutions for schools.
             </p>
             <div className="about-highlights">
               <div className="highlight">
-                <span className="highlight-icon">👨‍🏫</span>
-                <span>Principal & Physics Teacher</span>
+                <span className="highlight-icon">🎓</span>
+                <span>IIT Alumnus</span>
               </div>
               <div className="highlight">
-                <span className="highlight-icon">💻</span>
-                <span>Self-Taught Developer</span>
+                <span className="highlight-icon">📚</span>
+                <span>28 Years Teaching Physics</span>
               </div>
               <div className="highlight">
-                <span className="highlight-icon">🎯</span>
-                <span>Problem Solver</span>
+                <span className="highlight-icon">🏫</span>
+                <span>19 Years Running Schools</span>
               </div>
               <div className="highlight">
-                <span className="highlight-icon">❤️</span>
-                <span>Education Advocate</span>
+                <span className="highlight-icon">⭐</span>
+                <span>Military School Ajmer</span>
               </div>
             </div>
           </div>
           <div className="about-image">
             <div className="about-card">
               <h4>Dr. Rajeev Tyagi</h4>
-              <p>Principal | Physics Educator | Developer</p>
+              <p>School Principal | IIT Alumnus</p>
               <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
-                "Technology should serve education, not complicate it. 
-                Every tool I build aims to make teaching easier and learning better."
+                28 years of Physics teaching | 19 years of school leadership | 
+                Military School Ajmer graduate | Building technology solutions 
+                that address real educational challenges.
               </p>
             </div>
           </div>
