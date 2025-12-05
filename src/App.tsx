@@ -10,7 +10,12 @@ function App() {
       name: 'AnyTimeTeacher AI',
       icon: '🤖',
       description: 'Moving from "Covering the Syllabus" to "Engineering Understanding."',
-      features: ['Generate lesson plans', 'Student assessments', 'Plan improvements', 'Time-saving'],
+      features: [
+        'Reality-Based Unit Planning - Splits chapters into realistic periods with exact teacher scripts',
+        'Confidence-First Pedagogy - Builds student confidence before tackling complex concepts',
+        'Continuous Assessment Loop - Entry/Exit tickets catch learning gaps immediately',
+        'Psychological Profiling - Analyzes why students struggle, not just what they got wrong'
+      ],
       url: 'https://ai.anytimeteacher.com',
       status: 'Coming Soon',
       color: '#4CAF50'
