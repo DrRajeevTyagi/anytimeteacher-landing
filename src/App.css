@@ -249,15 +249,24 @@ body {
 .highlight {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.8rem;
+  gap: 0.8rem;
+  padding: 1rem;
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.highlight span:not(.highlight-icon) {
+  color: #333;
+  font-weight: 500;
 }
 
 .highlight-icon {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  flex-shrink: 0;
 }
 
 .about-card {
