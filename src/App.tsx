@@ -7,9 +7,9 @@ function App() {
   const apps = [
     {
       id: 'ai-tutor',
-      name: 'AnytimeTeacher AI',
+      name: 'AnyTimeTeacher AI',
       icon: '🤖',
-      description: 'AI-powered lesson plan generator with student testing',
+      description: 'Moving from "Covering the Syllabus" to "Engineering Understanding."',
       features: ['Generate lesson plans', 'Student assessments', 'Plan improvements', 'Time-saving'],
       url: 'https://ai.anytimeteacher.com',
       status: 'Coming Soon',
