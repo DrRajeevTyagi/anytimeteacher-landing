@@ -16,8 +16,8 @@ function App() {
         'Continuous Assessment Loop - Entry/Exit tickets catch learning gaps immediately',
         'Psychological Profiling - Analyzes why students struggle, not just what they got wrong'
       ],
-      url: 'https://ai.anytimeteacher.com',
-      status: 'Coming Soon',
+      url: 'https://anytimeteacher-ai-751583020092.us-west1.run.app',
+      status: 'Available for Trial',
       color: '#4CAF50'
     },
     {
@@ -128,11 +128,11 @@ function App() {
               
               <div className="app-footer">
                 <span 
-                  className={`app-status ${app.status === 'Live Now!' ? 'live' : 'coming-soon'}`}
+                  className={`app-status ${app.status === 'Live Now!' || app.status === 'Available for Trial' ? 'live' : 'coming-soon'}`}
                 >
                   {app.status}
                 </span>
-                {app.status === 'Live Now!' && (
+                {(app.status === 'Live Now!' || app.status === 'Available for Trial') && (
                   <a 
                     href={app.url} 
                     target="_blank" 
@@ -140,7 +140,7 @@ function App() {
                     className="app-link"
                     style={{ backgroundColor: app.color }}
                   >
-                    Launch App →
+                    {app.status === 'Available for Trial' ? 'Try Now →' : 'Launch App →'}
                   </a>
                 )}
               </div>
