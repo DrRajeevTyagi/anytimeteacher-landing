@@ -67,7 +67,7 @@ function App() {
       description: 'Student information management system',
       features: ['Student records', 'Grade management', 'Class information', 'Easy access'],
       url: 'https://trystudent-portal.vercel.app',
-      status: 'Live Now!',
+      status: 'Only for trial',
       color: '#00BCD4'
     }
   ]
@@ -128,11 +128,11 @@ function App() {
               
               <div className="app-footer">
                 <span 
-                  className={`app-status ${app.status === 'Live Now!' || app.status === 'Available for Trial' ? 'live' : 'coming-soon'}`}
+                  className={`app-status ${app.status === 'Live Now!' || app.status === 'Available for Trial' || app.status === 'Only for trial' ? 'live' : 'coming-soon'}`}
                 >
                   {app.status}
                 </span>
-                {(app.status === 'Live Now!' || app.status === 'Available for Trial') && (
+                {(app.status === 'Live Now!' || app.status === 'Available for Trial' || app.status === 'Only for trial') && (
                   <a 
                     href={app.url} 
                     target="_blank" 
@@ -140,7 +140,7 @@ function App() {
                     className="app-link"
                     style={{ backgroundColor: app.color }}
                   >
-                    {app.status === 'Available for Trial' ? 'Try Now →' : 'Launch App →'}
+                    {app.status === 'Available for Trial' ? 'Try Now →' : app.status === 'Only for trial' ? 'Try Now →' : 'Launch App →'}
                   </a>
                 )}
               </div>
