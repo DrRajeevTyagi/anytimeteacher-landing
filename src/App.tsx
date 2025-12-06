@@ -24,10 +24,15 @@ function App() {
       id: 'edupath',
       name: 'EduPath',
       icon: '📊',
-      description: 'Academic milestone tracker for English & Math',
-      features: ['Progress tracking', 'Personalized paths', 'Achievement badges', 'Parent visibility'],
-      url: 'https://edupath.anytimeteacher.com',
-      status: 'Coming Soon',
+      description: 'Bridging the gap between "standard" academic output and "elite" global proficiency',
+      features: [
+        'Visual Roadmap & Tracking — Structured milestones from Nursery to Class 12 with progress visualization',
+        'Diction Studio — AI-powered English accent neutralization and "Pedigree Score" for communication excellence',
+        'Socratic Math Tutor — Logic-based learning with real-world analogies and thought experiments',
+        'Parental Roadmap — Clear guidance on what milestones children should hit at each grade level'
+      ],
+      url: 'https://edupath-academic-milestones-890572002494.us-west1.run.app',
+      status: 'Available for Trial',
       color: '#2196F3'
     },
     {
