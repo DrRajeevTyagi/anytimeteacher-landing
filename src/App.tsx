@@ -152,7 +152,9 @@ function App() {
                 >
                   {app.status}
                 </span>
-                {(app.status === 'Live Now!' || app.status === 'Available for Trial' || app.status === 'Only for trial') && (
+                {(app.status === 'Live Now!' || app.status === 'Available for Trial' || app.status === 'Only for trial') && 
+                 app.id !== 'ai-tutor-deployed' && 
+                 app.id !== 'portal' && (
                   <a 
                     href={app.url} 
                     target="_blank" 
