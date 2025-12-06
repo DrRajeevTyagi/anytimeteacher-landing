@@ -48,7 +48,7 @@ function App() {
       ],
       url: 'https://edupath-academic-milestones-890572002494.us-west1.run.app',
       status: 'Available for Trial',
-      color: '#2196F3'
+      color: '#4CAF50'
     },
     {
       id: 'planner',
