@@ -21,6 +21,21 @@ function App() {
       color: '#4CAF50'
     },
     {
+      id: 'ai-tutor-deployed',
+      name: 'AnyTimeTeacher AI: Fully Deployed with Database',
+      icon: '🚀',
+      description: 'Full-featured version with Firebase database, secure backend, and persistent data storage.',
+      features: [
+        'Complete Backend API - Secure Gemini API integration on server-side',
+        'Firebase Database - All data stored permanently in cloud',
+        'Google Authentication - Real login system with Firebase Auth',
+        'Production Ready - Fully deployed on Vercel with custom domain support'
+      ],
+      url: 'https://att-ai-deployed.vercel.app',
+      status: 'Available for Trial',
+      color: '#4CAF50'
+    },
+    {
       id: 'edupath',
       name: 'EduPath (Academic Milestones for English and Math)',
       icon: '📊',
@@ -90,7 +105,7 @@ function App() {
           </p>
           <div className="hero-stats">
             <div className="stat">
-              <div className="stat-number">6</div>
+              <div className="stat-number">7</div>
               <div className="stat-label">Apps & Services</div>
             </div>
             <div className="stat">
