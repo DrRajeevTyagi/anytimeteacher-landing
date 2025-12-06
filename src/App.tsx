@@ -22,7 +22,7 @@ function App() {
     },
     {
       id: 'edupath',
-      name: 'EduPath (Academic milestones for English and Hindi)',
+      name: 'EduPath (Academic Milestones for English and Math)',
       icon: '📊',
       description: 'Bridging the gap between "standard" academic output and "elite" global proficiency',
       features: [
